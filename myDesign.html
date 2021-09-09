@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>WebSlides</title>
+  
+  <!--Linking to Roboto Google Fonts used in webSlides-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <!--Linking to CSS WebSlides -->
+  <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css"> 
+  
+  <style>
+    .zoomIn
+    {
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+ <!-- use class of vertical if you want to add vertical sliding in slides -->
+ <article id="webslides">
+  <!--Slide # 1 -->
+  <section>
+    <!-- Set BackGround -->
+    <span class="background light" style="background-image:url('https://docs.google.com/drawings/d/e/2PACX-1vQifM01Av7EEOLvt41Sk7Pnrk6izR6X8ST3hdDbqwJWTwqUui4K_PJrUiGucv_EaTo-T2PiKQGOxFTP/pub?w=960&h=720')"></span>
+    <div class="wrap">
+      <div class="content-center zoomIn">
+        <h3>HTML 5 Presentations</h3>
+        <div class="text-subtitle">
+          <p>Using WebSlides</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Slide # 2 -->
+  <section class="bg-white">
+    <!-- Set BackGround -->
+    <div class="wrap">
+      <div class="card-50 bg-gray">
+        <figure>
+          <img src="https://docs.google.com/drawings/d/e/2PACX-1vRGv3aZ_iFBFsH_FiTYrTaMtMp1hvArwKFLIxyilpEfaW5FlNx7JVLYKKLugHmfug8f6dfyd4XJKmoR/pub?w=960&h=720" alt="Nature">
+        </figure>
+        <div class="flex-content">
+          <h2>
+            Magic Of Nature
+          </h2>
+          <p class="text-subtitle">
+            Don't you feel?
+          </p>
+          <p class="text-intro">
+            "God is the most beautiful, and beauty is the expression of God. If you can't appreciate beauty in the world how can you understand God?"
+          </p>
+          <p class="text-context">
+            A qoute about Nature by Amit Ray.
+          </p>
+          <p class="text-intro text-shadow">
+            Nature teaches more than she preaches. There are no sermons in stones. It is easier to get a spark out of a stone than a moral.
+            <p>—John Burroughs</p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Slide # 3 -->
+  <section class="bg-gradient-r">
+    <div class="content-center">
+      <p class="text-landing">
+        Leave the road, take the trails.
+      </p>
+      <p class="text-shadow">
+        —Pythagoras
+      </p>
+    </div>
+  </section>
+  </article>
+
+  <!--Linking to JS WebSlides  -->
+  <script src="static/js/webslides.js"></script>
+    <script>
+      window.ws = new WebSlides();
+    </script>
+</body>
+</html>
